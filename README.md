@@ -22,33 +22,34 @@ As seguintes bibliotecas Python são utilizadas:
 ## Guia de Instalação
 
 1. Clone o repositório:
-  ```bash
-  git clone https://github.com/seu-usuario/classificacao-knn-iris.git
-  cd classificacao-knn-iris
-Copy
-Instale as dependências:
-pip install -r requirements.txt
-Copy
-Execução do Projeto
+```bash
+-  git clone https://github.com/LenoXz/classificacao-knn-iris.git
+- cd classificacao-knn-iris
+```
+2. Instale as dependências:
+```bash
+- pip install -r requirements.txt
+```
+
+3.Execução do Projeto:
+```bash
 No diretório do projeto, execute:
+- python main.ipynb
+```
+## O script irá:
 
-python main.py
-Copy
-O script irá:
-
-Carregar e padronizar o dataset.
-Implementar e avaliar o KNN utilizando Cross Validation e Holdout.
-Gerar e exibir matrizes de confusão.
-Resultados
+- Carregar o dataset.
+- Implementar e avaliar o KNN utilizando Cross Validation e Holdout.
+- Gerar e exibir matrizes de confusão.
+## Resultados
 O projeto gera visualizações gráficas da matriz de confusão para as duas abordagens:
 
 Exemplos de Matriz de Confusão
-Cross Validation: Matriz de Confusão Cross Validation
+- **Cross Validation**: Matriz de Confusão Cross Validation
 
-Holdout: Matriz de Confusão Holdout
+- **Holdout**: Matriz de Confusão Holdout
 
-(Substitua pelos gráficos gerados em seus resultados.)
-
-Estrutura do Projeto
-main.py: Implementação principal do projeto.
-resultados/: Diretório para armazenar os gráficos gerados.
+## Estrutura do Projeto
+- **data/**: Diretório para armazenar os datasets
+- **main.ipynb**: Implementação principal do projeto.
+- **resultados/**: Diretório para armazenar os gráficos gerados.
