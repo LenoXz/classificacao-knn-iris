@@ -1,27 +1,32 @@
-Classificação de Flores com KNN
+# Classificação de Flores com KNN
+
 Este projeto classifica tipos de flores usando o algoritmo K-Nearest Neighbors (KNN) no dataset 'iris'. Utiliza-se os métodos Cross Validation e Holdout para avaliar o desempenho do modelo.
 
-Descrição
+## Descrição
+
 O dataset 'iris' é composto por três espécies de flores: Setosa, Versicolour e Virginica. O objetivo é aplicar o KNN para distinguir entre essas espécies utilizando duas abordagens de validação:
 
-Cross Validation: Validação cruzada para generalização do modelo.
-Holdout: Divisão simples em conjuntos de treino e teste para avaliação direta.
-Bibliotecas Necessárias
+- **Cross Validation**: Validação cruzada para generalização do modelo.
+- **Holdout**: Divisão simples em conjuntos de treino e teste para avaliação direta.
+
+## Bibliotecas Necessárias
+
 As seguintes bibliotecas Python são utilizadas:
 
-scikit-learn
-pandas
-plotly
-seaborn
-numpy
-Guia de Instalação
-Clone o repositório:
+- `scikit-learn`
+- `pandas`
+- `plotly`
+- `seaborn`
+- `numpy`
 
-git clone https://github.com/seu-usuario/classificacao-knn-iris.git
-cd classificacao-knn-iris
+## Guia de Instalação
+
+1. Clone o repositório:
+  ```bash
+  git clone https://github.com/seu-usuario/classificacao-knn-iris.git
+  cd classificacao-knn-iris
 Copy
 Instale as dependências:
-
 pip install -r requirements.txt
 Copy
 Execução do Projeto
